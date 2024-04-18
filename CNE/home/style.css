@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+:root {
+    --azulclaro: #03588C;
+    --medio: #034C8C;
+    --azulescuro: #010440;
+    --dourado: #A67926;
+    --marrom: #8C7242;
+
+    --fonte-padrão: 'Times New Roman', Times, serif;
+    --fonte-destaque: "Bebas Neue", cursive, sans-serif; 
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #8C7242;
+}
+
+header {
+    background-image: linear-gradient(to bottom,#010440,#03588C);
+    height: 130px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+header h1 {
+    font-family: var(--fonte-destaque);
+}
+
+header p {
+    margin-top: 10px;
+}
+
+nav {
+    background-color: var(--azulclaro);
+    text-align: right;
+    padding-bottom: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    background-color: var(--dourado);
+    color: black;
+    border-radius: 5px;
+    padding: 1px;
+    transition-duration: 0.5s;
+}
+
+main {
+    background-color: white;
+    min-width: 500px;
+    max-width: 800px;
+    margin: auto;
+    font-family: var(--fonte-padrão);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 1px 1px 5px black;
+}
+main p {
+    text-indent: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: justify;
+}
+
+#primeiro {
+    padding-top: 10px;
+}
+
+#segundo {
+    padding-top: 20px;
+    text-indent: 0px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-indent: 5px;
+    background-image: linear-gradient(to right, #01044099, white );
+}
+
+h3 {
+    margin-top: 5px;
+    margin-left: 5px
+}
+
+ul {
+    list-style-position: inside;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 0,9em;
+    height: 30px;
+    padding-top: 5px;
+    margin-top: 30px;
+}
+
+
+
